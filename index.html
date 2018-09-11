@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title>reveal.js</title>
-
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/extra.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>PPSN bid: Granada 2020</title>
+    
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -35,10 +35,10 @@
 
 	      <section>
 		<h1>And our <em>h</em> numbers were lower</h1>
-		<img src='img/best_poster.jpg'>
+		<img src='img/bestposter.jpg'>
 	      </section>
 	      
-	      <section><h1>There was a PPSN in Granada</h1>
+	      <section><h3>There was a PPSN in Granada</h3>
 		<img src='img/procs.png'>
 	      </section>
 	      <section data-background='https://farm5.staticflickr.com/4642/39284854801_816500c696_k_d.jpg'><h1>PPSN Granada 2020</h1>
@@ -47,21 +47,23 @@
 	    </div>
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
-
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
+	  <script src="lib/js/head.min.js"></script>
+	  <script src="js/reveal.js"></script>
+	  
+	  <script>
+	    // More info about config & dependencies:
+	    // - https://github.com/hakimel/reveal.js#configuration
+	    // - https://github.com/hakimel/reveal.js#dependencies
+	    Reveal.initialize({
+	    history: true,
+	    width: '99%',
+	    dependencies: [
+	    { src: 'plugin/markdown/marked.js' },
+	    { src: 'plugin/markdown/markdown.js' },
+	    { src: 'plugin/notes/notes.js', async: true },
+	    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+	    ]
+	    });
+	  </script>
 	</body>
 </html>
